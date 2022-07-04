@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
 body {
-    background-color: #1D1F43;
+    background-image: url(/images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg);
 }
 
 #home {
@@ -8,4 +10,26 @@ body {
 
 #home a {
     color: white;
+    margin-bottom: 7rem;
+}
+
+/* seelect all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+#home p {
+    font-family: 'Arial';
+    opacity: 0.5;
+    font-size: 12px;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }
