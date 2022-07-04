@@ -30,15 +30,6 @@ span {
     -webkit-text-stroke: 1px white;
 }
 
-footer {
-    font-family: 'Arial';
-    opacity: 0.8;
-    font-size: 12px;
-    margin-top: 7rem;
-    margin-bottom: 3rem;
-    color: white;
-    text-align: center;
-}
 
 #home p {
     color: white;
@@ -81,6 +72,7 @@ footer {
 
 .playbtn {
     font-size: 1rem;
+    margin-top: 2rem;
     font-weight: bold;
     padding: 1rem 0;
     color: white;
@@ -90,4 +82,27 @@ footer {
     text-align: center;
     background: goldenrod;
     border-radius: 10px;
+}
+
+.playbtn:hover {
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.playbtn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+footer {
+    font-family: 'Arial';
+    opacity: 0.8;
+    font-size: 12px;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    color: white;
+    text-align: center;
 }
