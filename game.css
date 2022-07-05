@@ -4,4 +4,25 @@ body {
    */
     background-image: url(/images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg);
     background-size: cover;
+    color: white;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 25px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #d1d1d1;
+    font-size: 16px;
+
+}
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 32px 32px;
+    color: #696969;
 }
